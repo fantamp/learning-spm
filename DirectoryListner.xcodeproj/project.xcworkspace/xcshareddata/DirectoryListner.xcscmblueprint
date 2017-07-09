@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5E34E9408755A19BD609D76181F2EEBBDBFA6D01",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5E34E9408755A19BD609D76181F2EEBBDBFA6D01" : 9223372036854775807,
+    "E298C5CEA91C9D7943F600494FF1C935D9FF961C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F86156BE-3A64-4653-AB5E-397313BB9964",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5E34E9408755A19BD609D76181F2EEBBDBFA6D01" : "DirectoryListner6\/",
+    "E298C5CEA91C9D7943F600494FF1C935D9FF961C" : "DirectoryListner6\/.build\/checkouts\/MtLruCache-15662056841764635\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DirectoryListner",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DirectoryListner.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:fantamp\/learning-spm.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E34E9408755A19BD609D76181F2EEBBDBFA6D01"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:fantamp\/mt-lru-cache-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E298C5CEA91C9D7943F600494FF1C935D9FF961C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/fantamp\/src\/macOS\/DirectoryListner6\/.build\/repositories\/MtLruCache-15662056841764635",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E298C5CEA91C9D7943F600494FF1C935D9FF961C"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "MtLruCache",
+      "reason": null,
+      "repositoryURL": "/Users/fantamp/src/macOS/MtLruCache",
+      "version": "1.0.0"
+    }
+  ],
+  "version": 1
+}

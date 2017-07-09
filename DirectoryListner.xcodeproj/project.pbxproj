@@ -7,306 +7,368 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63A3D3DA1EF59AAF009E7114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3D3D91EF59AAF009E7114 /* AppDelegate.swift */; };
-		63A3D3DC1EF59AAF009E7114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3D3DB1EF59AAF009E7114 /* ViewController.swift */; };
-		63A3D3DE1EF59AAF009E7114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A3D3DD1EF59AAF009E7114 /* Assets.xcassets */; };
-		63A3D3E11EF59AAF009E7114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3D3DF1EF59AAF009E7114 /* Main.storyboard */; };
-		63A3D3E91EF6EA93009E7114 /* ImagesBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3D3E81EF6EA93009E7114 /* ImagesBrowser.swift */; };
+		OBJ_25 /* MtLruCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* MtLruCache.swift */; };
+		OBJ_32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AppDelegate.swift */; };
+		OBJ_33 /* ImagesBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ImagesBrowser.swift */; };
+		OBJ_34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ViewController.swift */; };
+		OBJ_36 /* MtLruCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* MtLruCache.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		631FA1CC1F123F9400A26B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_20;
+			remoteInfo = MtLruCache;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		63A3D3D61EF59AAF009E7114 /* DirectoryListner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectoryListner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63A3D3D91EF59AAF009E7114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63A3D3DB1EF59AAF009E7114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63A3D3DD1EF59AAF009E7114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63A3D3E01EF59AAF009E7114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63A3D3E21EF59AAF009E7114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63A3D3E81EF6EA93009E7114 /* ImagesBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesBrowser.swift; sourceTree = "<group>"; };
-		63E2B9E91F115972000D7B17 /* MtLruCache */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MtLruCache; path = ../MtLruCache; sourceTree = "<group>"; };
-		63E2B9EB1F1159B7000D7B17 /* MtLruCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MtLruCache.swift; path = ../MtLruCache/Sources/MtLruCache.swift; sourceTree = "<group>"; };
+		OBJ_10 /* ImagesBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesBrowser.swift; sourceTree = "<group>"; };
+		OBJ_11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		OBJ_13 /* DirectoryListner */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DirectoryListner; sourceTree = SOURCE_ROOT; };
+		OBJ_16 /* MtLruCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MtLruCache.swift; sourceTree = "<group>"; };
+		OBJ_18 /* MtLruCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MtLruCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_19 /* DirectoryListner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DirectoryListner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63A3D3D31EF59AAF009E7114 /* Frameworks */ = {
+		OBJ_26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_36 /* MtLruCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63A3D3CD1EF59AAF009E7114 = {
+		OBJ_12 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				63A3D3D81EF59AAF009E7114 /* DirectoryListner */,
-				63A3D3D71EF59AAF009E7114 /* Products */,
-				63E2B9E81F115972000D7B17 /* Frameworks */,
 			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* MtLruCache 1.0.0 */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		63A3D3D71EF59AAF009E7114 /* Products */ = {
+		OBJ_15 /* MtLruCache 1.0.0 */ = {
 			isa = PBXGroup;
 			children = (
-				63A3D3D61EF59AAF009E7114 /* DirectoryListner.app */,
+				OBJ_16 /* MtLruCache.swift */,
+			);
+			name = "MtLruCache 1.0.0";
+			path = ".build/checkouts/MtLruCache-15662056841764635/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* MtLruCache.framework */,
+				OBJ_19 /* DirectoryListner.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63A3D3D81EF59AAF009E7114 /* DirectoryListner */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				63A3D3E81EF6EA93009E7114 /* ImagesBrowser.swift */,
-				63A3D3D91EF59AAF009E7114 /* AppDelegate.swift */,
-				63A3D3DB1EF59AAF009E7114 /* ViewController.swift */,
-				63A3D3DD1EF59AAF009E7114 /* Assets.xcassets */,
-				63A3D3DF1EF59AAF009E7114 /* Main.storyboard */,
-				63A3D3E21EF59AAF009E7114 /* Info.plist */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_12 /* Tests */,
+				OBJ_13 /* DirectoryListner */,
+				OBJ_14 /* Dependencies */,
+				OBJ_17 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* DirectoryListner */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* DirectoryListner */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* AppDelegate.swift */,
+				OBJ_10 /* ImagesBrowser.swift */,
+				OBJ_11 /* ViewController.swift */,
 			);
 			path = DirectoryListner;
-			sourceTree = "<group>";
-		};
-		63E2B9E81F115972000D7B17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				63E2B9EB1F1159B7000D7B17 /* MtLruCache.swift */,
-				63E2B9E91F115972000D7B17 /* MtLruCache */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63A3D3D51EF59AAF009E7114 /* DirectoryListner */ = {
+		OBJ_20 /* MtLruCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63A3D3E51EF59AAF009E7114 /* Build configuration list for PBXNativeTarget "DirectoryListner" */;
+			buildConfigurationList = OBJ_21 /* Build configuration list for PBXNativeTarget "MtLruCache" */;
 			buildPhases = (
-				63A3D3D21EF59AAF009E7114 /* Sources */,
-				63A3D3D31EF59AAF009E7114 /* Frameworks */,
-				63A3D3D41EF59AAF009E7114 /* Resources */,
+				OBJ_24 /* Sources */,
+				OBJ_26 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = MtLruCache;
+			productName = MtLruCache;
+			productReference = OBJ_18 /* MtLruCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_27 /* DirectoryListner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_28 /* Build configuration list for PBXNativeTarget "DirectoryListner" */;
+			buildPhases = (
+				OBJ_31 /* Sources */,
+				OBJ_35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_37 /* PBXTargetDependency */,
+			);
 			name = DirectoryListner;
 			productName = DirectoryListner;
-			productReference = 63A3D3D61EF59AAF009E7114 /* DirectoryListner.app */;
-			productType = "com.apple.product-type.application";
+			productReference = OBJ_19 /* DirectoryListner.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63A3D3CE1EF59AAF009E7114 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Andrey Mescheryakov";
-				TargetAttributes = {
-					63A3D3D51EF59AAF009E7114 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 63A3D3D11EF59AAF009E7114 /* Build configuration list for PBXProject "DirectoryListner" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "DirectoryListner" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 63A3D3CD1EF59AAF009E7114;
-			productRefGroup = 63A3D3D71EF59AAF009E7114 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63A3D3D51EF59AAF009E7114 /* DirectoryListner */,
+				OBJ_20 /* MtLruCache */,
+				OBJ_27 /* DirectoryListner */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		63A3D3D41EF59AAF009E7114 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
-				63A3D3DE1EF59AAF009E7114 /* Assets.xcassets in Resources */,
-				63A3D3E11EF59AAF009E7114 /* Main.storyboard in Resources */,
+				OBJ_25 /* MtLruCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		63A3D3D21EF59AAF009E7114 /* Sources */ = {
+		OBJ_31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				63A3D3DC1EF59AAF009E7114 /* ViewController.swift in Sources */,
-				63A3D3DA1EF59AAF009E7114 /* AppDelegate.swift in Sources */,
-				63A3D3E91EF6EA93009E7114 /* ImagesBrowser.swift in Sources */,
+				OBJ_32 /* AppDelegate.swift in Sources */,
+				OBJ_33 /* ImagesBrowser.swift in Sources */,
+				OBJ_34 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		63A3D3DF1EF59AAF009E7114 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63A3D3E01EF59AAF009E7114 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		OBJ_37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_20 /* MtLruCache */;
+			targetProxy = 631FA1CC1F123F9400A26B2B /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		63A3D3E31EF59AAF009E7114 /* Debug */ = {
+		OBJ_22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DirectoryListner.xcodeproj/MtLruCache_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MtLruCache;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = MtLruCache;
 			};
 			name = Debug;
 		};
-		63A3D3E41EF59AAF009E7114 /* Release */ = {
+		OBJ_23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DirectoryListner.xcodeproj/MtLruCache_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MtLruCache;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = MtLruCache;
 			};
 			name = Release;
 		};
-		63A3D3E61EF59AAF009E7114 /* Debug */ = {
+		OBJ_29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DirectoryListner/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = andrey.mescheryakov.DirectoryListner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DirectoryListner.xcodeproj/DirectoryListner_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DirectoryListner;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = DirectoryListner;
 			};
 			name = Debug;
 		};
-		63A3D3E71EF59AAF009E7114 /* Release */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DirectoryListner/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = andrey.mescheryakov.DirectoryListner;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DirectoryListner.xcodeproj/DirectoryListner_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DirectoryListner;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = DirectoryListner;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63A3D3D11EF59AAF009E7114 /* Build configuration list for PBXProject "DirectoryListner" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "DirectoryListner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A3D3E31EF59AAF009E7114 /* Debug */,
-				63A3D3E41EF59AAF009E7114 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		63A3D3E51EF59AAF009E7114 /* Build configuration list for PBXNativeTarget "DirectoryListner" */ = {
+		OBJ_21 /* Build configuration list for PBXNativeTarget "MtLruCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63A3D3E61EF59AAF009E7114 /* Debug */,
-				63A3D3E71EF59AAF009E7114 /* Release */,
+				OBJ_22 /* Debug */,
+				OBJ_23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_28 /* Build configuration list for PBXNativeTarget "DirectoryListner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_29 /* Debug */,
+				OBJ_30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63A3D3CE1EF59AAF009E7114 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

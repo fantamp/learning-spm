@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63E2B9DF1F11529B000D7B17"
-               BuildableName = "MtLruCache.bundle"
+               BlueprintIdentifier = "OBJ_20"
+               BuildableName = "MtLruCache.framework"
                BlueprintName = "MtLruCache"
                ReferencedContainer = "container:DirectoryListner.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63E2B9DF1F11529B000D7B17"
-            BuildableName = "MtLruCache.bundle"
+            BlueprintIdentifier = "OBJ_20"
+            BuildableName = "MtLruCache.framework"
             BlueprintName = "MtLruCache"
             ReferencedContainer = "container:DirectoryListner.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63E2B9DF1F11529B000D7B17"
-            BuildableName = "MtLruCache.bundle"
+            BlueprintIdentifier = "OBJ_20"
+            BuildableName = "MtLruCache.framework"
             BlueprintName = "MtLruCache"
             ReferencedContainer = "container:DirectoryListner.xcodeproj">
          </BuildableReference>
